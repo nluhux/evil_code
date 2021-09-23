@@ -1,0 +1,7 @@
+*~
+*.o
+*.so
+*.a
+a.out
+.ccls-cache
+core
