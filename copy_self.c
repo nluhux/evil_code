@@ -36,11 +36,6 @@ int main(int argc, char *argv[]) {
 			}
 		}
 	}
-	// 如果仍未解决
-	if (outfd == -1) {
-		perror("open() failed: ");
-		exit(1);
-	}
 
 	// 开始拷贝
 	while ((n = read(infd, buf, BUFSIZE)) > 0) {
